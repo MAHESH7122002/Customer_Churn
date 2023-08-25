@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Churn Prediction</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    background-image: url('https://media.licdn.com/dms/image/D4E12AQH-xbf5mF2kNQ/article-cover_image-shrink_720_1280/0/1686343827488?e=2147483647&v=beta&t=VZfzcP0nKUBcQYzsMufW1jdN9CpZB1yjo3gE2N6ibWk');
+}
+
+.background {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="content">
+                <h1>Welcome to Customer Churn Prediction</h1>
+                <p>Make accurate predictions about customer churn using our advanced model.</p>
+                <a href="{{ url_for('prediction') }}" class="btn btn-primary">Get Predictions</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
