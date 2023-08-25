@@ -46,11 +46,9 @@ class ModelTrainer:
                     'max_features': "sqrt"
                 },
                 "Random Forest":{
-                    # 'max_depth': [8,10,12],
-                    # 'min_samples_leaf': [2,4],
-                    # 'min_samples_split': [2,4,6],
-                    # 'n_estimators': [300,500,1000],
-                    'random_state': [42]
+                    'n_estimators':500,
+                    'max_depth':15,
+                    'min_samples_split':5
                 },
                 "XGBClassifier":{
                     'n_estimators': 500,
