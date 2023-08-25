@@ -1,0 +1,17 @@
+[ 2023-08-25 00:25:07,467 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-25 00:25:07,474 ] 187 werkzeug - INFO -  * Debugger PIN: 126-734-247
+[ 2023-08-25 00:25:09,443 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:25:09] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-08-25 00:25:09,507 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:25:09] "[33mGET /bg1.png HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:25:28,774 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:25:28] "GET / HTTP/1.1" 200 -
+[ 2023-08-25 00:25:34,194 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:25:34] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-25 00:25:34,218 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:25:34] "[33mGET /bg1.png HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:26:30,306 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:26:30] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-25 00:28:01,495 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:28:01] "GET / HTTP/1.1" 200 -
+[ 2023-08-25 00:28:01,511 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:28:01] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:29:07,067 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:29:07] "GET / HTTP/1.1" 200 -
+[ 2023-08-25 00:29:07,091 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:29:07] "[33mGET /background.jpg HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:29:11,141 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:29:11] "[33mGET /prediction.html HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:29:47,941 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:29:47] "GET / HTTP/1.1" 200 -
+[ 2023-08-25 00:29:47,965 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:29:47] "[33mGET /background.jpg HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:29:49,314 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:29:49] "[33mGET /prediction.html HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:30:08,716 ] 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Ml Projects\\Customer churn\\mlproject\\app.py', reloading

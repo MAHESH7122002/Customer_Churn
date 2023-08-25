@@ -1,0 +1,13 @@
+[ 2023-08-25 00:40:11,286 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-25 00:40:11,286 ] 187 werkzeug - INFO -  * Debugger PIN: 126-734-247
+[ 2023-08-25 00:40:12,351 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:40:12] "GET / HTTP/1.1" 200 -
+[ 2023-08-25 00:40:12,394 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:40:12] "[33mGET /background.jpg HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:40:14,566 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:40:14] "GET /prediction HTTP/1.1" 200 -
+[ 2023-08-25 00:40:30,546 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:40:30] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-08-25 00:42:37,792 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:42:37] "GET / HTTP/1.1" 200 -
+[ 2023-08-25 00:42:37,824 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:42:37] "[33mGET /background.jpg HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:43:31,293 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:43:31] "GET / HTTP/1.1" 200 -
+[ 2023-08-25 00:43:31,311 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:43:31] "[33mGET /background.jpg HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:43:51,222 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:43:51] "GET / HTTP/1.1" 200 -
+[ 2023-08-25 00:43:51,239 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:43:51] "[33mGET /background.jpg HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:44:02,322 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:44:02] "GET /prediction HTTP/1.1" 200 -

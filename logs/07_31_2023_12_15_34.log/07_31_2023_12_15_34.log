@@ -1,0 +1,6 @@
+[ 2023-07-31 12:15:34,628 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-31 12:15:34,628 ] 224 werkzeug - INFO -  * Debugger PIN: 112-665-743
+[ 2023-07-31 12:15:44,926 ] 224 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2023 12:15:44] "GET / HTTP/1.1" 200 -
+[ 2023-07-31 12:15:48,297 ] 224 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2023 12:15:48] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-07-31 12:16:05,933 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\anaconda3\\Lib\\site-packages\\sklearn\\base.py', reloading
+[ 2023-07-31 12:16:06,126 ] 224 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2023 12:16:06] "POST /predictdata HTTP/1.1" 200 -

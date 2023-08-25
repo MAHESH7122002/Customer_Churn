@@ -1,0 +1,8 @@
+[ 2023-08-24 23:45:02,496 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-24 23:45:02,511 ] 187 werkzeug - INFO -  * Debugger PIN: 126-734-247
+[ 2023-08-24 23:45:07,611 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Aug/2023 23:45:07] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2023-08-24 23:45:07,643 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Aug/2023 23:45:07] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-24 23:45:07,643 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Aug/2023 23:45:07] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-08-24 23:45:07,668 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Aug/2023 23:45:07] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-24 23:45:07,688 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Aug/2023 23:45:07] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-24 23:45:26,388 ] 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Ml Projects\\Customer churn\\mlproject\\app.py', reloading

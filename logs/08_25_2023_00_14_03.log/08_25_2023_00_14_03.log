@@ -1,0 +1,6 @@
+[ 2023-08-25 00:14:03,132 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-25 00:14:03,132 ] 187 werkzeug - INFO -  * Debugger PIN: 126-734-247
+[ 2023-08-25 00:14:04,498 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:14:04] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-08-25 00:14:22,847 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:14:22] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-08-25 00:16:28,851 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:16:28] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-08-25 00:16:28,884 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:16:28] "[33mGET /bg1.png HTTP/1.1[0m" 404 -

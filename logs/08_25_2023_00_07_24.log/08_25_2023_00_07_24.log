@@ -1,0 +1,8 @@
+[ 2023-08-25 00:07:24,671 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-25 00:07:24,671 ] 187 werkzeug - INFO -  * Debugger PIN: 126-734-247
+[ 2023-08-25 00:07:26,063 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:07:26] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2023-08-25 00:07:26,089 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:07:26] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:07:26,089 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:07:26] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:07:26,097 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:07:26] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:07:26,116 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:07:26] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:07:50,846 ] 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Ml Projects\\Customer churn\\mlproject\\src\\pipeline\\predict_pipeline.py', reloading

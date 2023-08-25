@@ -1,0 +1,28 @@
+[ 2023-08-25 00:30:26,894 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-25 00:30:26,896 ] 187 werkzeug - INFO -  * Debugger PIN: 126-734-247
+[ 2023-08-25 00:30:27,842 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:30:27] "[33mGET /prediction.html HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:30:30,719 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:30:30] "[33mGET /prediction.html HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:30:35,566 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:30:35] "[33mGET /prediction HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:30:41,782 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:30:41] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-25 00:32:11,364 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:32:11] "[33mGET /prediction.html HTTP/1.1[0m" 404 -
+[ 2023-08-25 00:33:45,835 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:33:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-08-25 00:33:45,855 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:33:45] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-08-25 00:33:45,855 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:33:45] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-08-25 00:33:45,875 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:33:45] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-08-25 00:33:45,918 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:33:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:34:08,029 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-08-25 00:34:08,058 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:08] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:34:08,061 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:34:08,086 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:34:08,102 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:34:16,584 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-08-25 00:34:16,604 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:16] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:34:16,604 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:16] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:34:16,621 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:34:16,638 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:34:18,316 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-08-25 00:34:18,339 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:18] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:34:18,339 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:18] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:34:18,349 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:34:18,364 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 00:34:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-25 00:35:26,912 ] 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\Ml Projects\\Customer churn\\mlproject\\app.py', reloading
