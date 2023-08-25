@@ -15,31 +15,36 @@ app=application
 def index():
     return render_template('index.html') 
 
+@app.route('/prediction')
+def prediction():
+    return render_template('prediction.html') 
+
+
+
 @app.route('/predictdata',methods=['GET','POST'])
 def predict_datapoint():
     if request.method=='GET':
-        return render_template('home.html')
+        return render_template('prediction.html')
     else:
         data=CustomData(
-            gender=request.form.get('gender'),
-            race_ethnicity=request.form.get('ethnicity'),
-            parental_level_of_education=request.form.get('parental_level_of_education'),
-            lunch=request.form.get('lunch'),
-            test_preparation_course=request.form.get('test_preparation_course'),
-            reading_score=float(request.form.get('writing_score')),
-            writing_score=float(request.form.get('reading_score'))
-
+            Gender=request.form.get('Gender'),
+            Age=request.form.get('Age'),
+            Location=request.form.get('Location'),
+            Subscription_Length_Months=request.form.get('Subscription_Length_Months'),
+            Monthly_Bill=float(request.form.get('Monthly_Bill')),
+            Total_Usage_GB=float(request.form.get('Total_Usage_GB'))
         )
         pred_df=data.get_data_as_data_frame()
         print(pred_df)
         print("Before Prediction")
 
-        predict_pipeline=PredictPipeline()
+        predict_pipeline=PredictPipeline() 
         print("Mid Prediction")
+        print(pred_df.columns)
         results=predict_pipeline.predict(pred_df)
         print("after Prediction")
-        return render_template('home.html',results=results[0])
+        return render_template('prediction.html',results=results)
     
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0",debug=True) 
